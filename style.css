@@ -84,3 +84,19 @@ h1 {
   box-shadow: 0 0 20px #00ffe1, 0 0 40px #00ffe1;
 }
 
+.lap-list {
+  margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 1rem;
+  color: #0ff;
+  text-align: left;
+}
+
+.lap-list li {
+  padding: 0.3rem 1rem;
+  border-bottom: 1px solid #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
